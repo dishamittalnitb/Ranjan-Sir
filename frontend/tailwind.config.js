@@ -1,0 +1,47 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  darkMode: 'class',
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        // "Executive Academic Strategy" design tokens (from Stitch design system)
+        primary: '#091426',
+        'primary-container': '#1e293b',
+        'on-primary': '#ffffff',
+        'on-primary-container': '#8590a6',
+        secondary: '#565e74',
+        'on-secondary': '#ffffff',
+        'secondary-container': '#dae2fd',
+        'on-secondary-container': '#5c647a',
+        tertiary: '#001906',
+        'on-tertiary': '#ffffff',
+        'tertiary-container': '#003011',
+        'on-tertiary-container': '#40a25a',
+        surface: '#f8f9ff',
+        'surface-dim': '#cbdbf5',
+        'surface-bright': '#f8f9ff',
+        'surface-container-lowest': '#ffffff',
+        'surface-container-low': '#eff4ff',
+        'surface-container': '#e5eeff',
+        'surface-container-high': '#dce9ff',
+        'surface-container-highest': '#d3e4fe',
+        'on-surface': '#0b1c30',
+        'on-surface-variant': '#45474c',
+        outline: '#75777d',
+        'outline-variant': '#c5c6cd',
+        error: '#ba1a1a',
+        'on-error': '#ffffff',
+        'error-container': '#ffdad6',
+        'on-error-container': '#93000a',
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        serif: ['Newsreader', 'Georgia', 'serif'],
+        editorial: ['"Instrument Serif"', 'Georgia', 'serif'],
+        mono: ['"Space Mono"', 'monospace'],
+      },
+    },
+  },
+  plugins: [],
+}
